@@ -1,59 +1,27 @@
 #include <stdio.h>
 
-
-
 /**
+ * main - Entry point
+ * lowercase followed by a new line
  *
- *  * main - Entry point
- *
- *   *
- *
- *    * Return: Always 0 for success
- *
- *     */
-
+ * Return: Always 0 for success
+ */
 int main(void)
-
 {
 
 		int letter;
 
+	        /* start from a */
+                letter = 'a';
 
+          	while (letter <= 'z')
+		{
 
-			/* print alphabet in lowercase */
+		putchar(letter);
+                letter++;
+		}
 
-			letter = 'a';
-
-				while (letter <= 'z')
-
-						{
-
-									putchar(letter);
-
-											letter++;
-
-												}
-
-
-
-					/* Print alphabet in uppercase */
-
-					letter = 'A';
-
-						while (letter <= 'Z')
-
-								{
-
-											putchar(letter);
-
-													letter++;
-
-														}
-
-
-
-							putchar('\n');
-
-								return (0);
+		putchar('\n');
+		return (0);
 
 }
