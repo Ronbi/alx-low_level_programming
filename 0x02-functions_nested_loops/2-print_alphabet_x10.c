@@ -24,10 +24,13 @@ void print_alphabet_x10(void)
 			ch++;
 
 		}
-	        
 		putchar('\n');
 		i++;
-	
+
 	}
 
 }
+	
+	
+
+
