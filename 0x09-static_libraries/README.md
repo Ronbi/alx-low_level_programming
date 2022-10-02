@@ -1,2 +1,2 @@
-#!/bin/bash
-creating static libraries
+#1/bin/bash
+Static libraries
