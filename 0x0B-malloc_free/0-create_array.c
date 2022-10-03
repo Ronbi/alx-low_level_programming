@@ -1,6 +1,5 @@
 #include "main.h"
-#include <stdio.h>
-
+#include <stdlib.h>
 /**
  * main - creates an array of chars, and initializes it with a specific char.
  *
